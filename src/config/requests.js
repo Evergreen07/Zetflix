@@ -1,11 +1,11 @@
-let apikey;
+let apikey='edd60f4d06cd9715705383dd32c224dd';
 
-if(process.env.NODE_ENV !== 'production'){
-    apikey = process.env.REACT_APP_API_KEY;
-} 
-else{
-    apikey = process.env.API_KEY;
-}
+// if(process.env.NODE_ENV !== 'production'){
+//     apikey = process.env.REACT_APP_API_KEY;
+// } 
+// else{
+//     apikey = process.env.API_KEY;
+// }
 
 const requests = {
     fetchTrending: `/trending/all/week?api_key=${apikey}&language=en-US`,
