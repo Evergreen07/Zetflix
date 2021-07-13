@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { useSelector } from 'react-redux'
-import { logout, selectUser } from '../../features/userSlice'
+import { selectUser } from '../../features/userSlice'
 import { auth } from '../../firebase'
 import '../../utilities/stylesheets/Navbar.css'
 import Zetflix from '../../utilities/pictures/Zetflix.png'
-import { Link } from 'react-router-dom'
 
 
 const Navbar = ({setSignIn}) => {

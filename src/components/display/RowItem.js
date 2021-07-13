@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from '../../config/axios'
 import '../../utilities/stylesheets/RowItem.css'
-import movieTrailer from 'movie-trailer'
 import Player from '../layouts/Player.js'
 
 const RowItem = ({title, path, isPortrait}) => {
