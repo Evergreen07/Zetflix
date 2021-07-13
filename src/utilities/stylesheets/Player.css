@@ -1,0 +1,9 @@
+.player{
+    margin: auto;
+    width: 80%;
+    color: black;
+}
+
+.video{
+    max-height: 100%;
+}

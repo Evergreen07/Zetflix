@@ -1,0 +1,79 @@
+.row{
+    color : white;
+    padding: 1rem 0rem;
+}
+
+.row-title{
+    font-size: 28px;
+    margin-left: 2.2rem;
+}
+
+.card{
+    display: flex;
+    padding: 1rem 0;
+    margin-left: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    color: white;
+    object-fit: contain;
+}
+
+.card::-webkit-scrollbar{
+    display: none;
+}
+
+.card-img{
+    transition: transform 400ms;
+}
+
+.card-img:hover{
+    transform: scale(1.1);
+}
+
+.card-info{
+    padding-top: 0.2rem;
+    padding-left: 0.5rem;
+}
+
+.not{
+    display: none;
+}
+
+.landscape{
+    padding: 0rem 0.5rem;
+    cursor: pointer;
+
+    height: 8rem;
+    width: 14rem;
+}
+
+.portrait{
+    padding: 0rem 0.5rem;
+    cursor: pointer;
+
+    height: 16rem;
+    width: 12rem;
+}
+
+
+/* .card-div{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card-div::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+        180 deg, 
+        transparent,
+        lime);
+    z-index: 2;
+    opacity: 1;
+} */

@@ -1,0 +1,86 @@
+.loginscreen{
+    position: relative;
+    min-height: 100vh;
+
+    /* 'url(https://mppmduse2pmpovwapp.azurewebsites.net/wp-content/uploads/2019/09/netflix-background-9.jpg)' */
+    
+    background-position: center;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-body{
+    text-align: center;
+    color: white;
+    z-index: 1;
+    padding-top: 6rem;
+}
+
+.login-body>h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 3.4rem;
+    letter-spacing: 1px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.login-body>h2{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1rem;
+    padding: 1.7rem 0rem;
+}
+
+.login-body>h3{
+    font-size: 20px;
+    font-weight: 500;
+
+    line-height: 1rem;
+    padding: 1.1rem 0rem 1.6rem 0rem;
+}
+
+.subscribe-input{
+    width: 27rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 1rem;
+    border: none;
+    outline: none;
+
+    font-size: 30px;
+}
+
+.subscribe-button{
+    width: 16rem;
+    padding: 0.8rem 0rem;
+    color: white;
+    background-color: #E50914;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: 2px solid rgb(90, 90, 90);
+    outline: none;
+
+    font-size: 30px;
+}
+
+.subscribe-button:hover{
+    cursor: pointer;
+    background-color: #ff2222;
+}
+
+/* .gradient{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0,0,0,0.5);
+} */
+
+
+
+/* MEDIA QUERRIES */
