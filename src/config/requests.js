@@ -1,4 +1,11 @@
-const apikey = process.env.REACT_APP_API_KEY;
+let apikey;
+
+if(process.env.NODE_ENV !== 'production'){
+    apikey = process.env.REACT_APP_API_KEY;
+} 
+else{
+    apikey = process.env.API_KEY;
+}
 
 const requests = {
     fetchTrending: `/trending/all/week?api_key=${apikey}&language=en-US`,
