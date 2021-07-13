@@ -17,7 +17,7 @@ const Banner = () => {
             setTrailer('GV3HUDMQ-F8'); //'X4bF_quwNtw'
             setTimeout(() => {
                 setTrailer("");
-            }, 4500);
+            }, 6000);
         }
     }
 
