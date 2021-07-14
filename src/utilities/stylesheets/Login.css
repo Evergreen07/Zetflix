@@ -54,3 +54,39 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+
+
+/* MEDIA QUERIES */
+
+@media(max-width:450px){
+
+    .login-form{
+        color: white;
+        background-color: rgba(0,0,0,0.75);
+        border-radius: 5px;
+        margin: 7rem 0 2rem 0;
+        padding: 1.2rem 3.2rem;
+        max-width: 400px;
+    }
+
+    .login-form>form>h1{
+        font-size: 30px;
+        padding: 0.5rem 0rem;
+    }
+
+    .login-form>form>input{
+        padding: 0px 8px;
+        height: 3rem;
+        margin: 0.8rem 0rem;
+    }
+
+    .submit{
+        height: 3rem;
+        margin: 1.8rem 0rem;
+        padding: 14px 20px;
+    
+        font-size: 1.3rem;
+    }
+
+}

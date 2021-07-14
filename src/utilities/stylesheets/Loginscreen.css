@@ -83,4 +83,63 @@
 
 
 
-/* MEDIA QUERRIES */
+/* MEDIA QUERIES */
+
+@media(max-width:450px){
+
+    .login-body{
+        text-align: center;
+        color: white;
+        z-index: 1;
+        padding-top: 6rem;
+    }
+    
+    .login-body>h1{
+        font-size: 30px;
+        font-weight: 650;
+        line-height: 2.1rem;
+        letter-spacing: 0.6px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .login-body>h2{
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1rem;
+        padding: 1.6rem 0rem;
+    }
+    
+    .login-body>h3{
+        font-size: 18px;
+        font-weight: 500;
+        width: 80%;
+        margin: 0 auto;
+    
+        line-height: 1.5rem;
+        padding: 0.4rem 0rem 1.4rem 0rem;
+    }
+
+    .subscribe-input{
+        width: 21rem;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        padding-left: 1rem;
+        border: none;
+        border-radius: 2px;
+        outline: none;
+    
+        font-size: 20px;
+    }
+    
+    .subscribe-button{
+        width: 10rem;
+        margin-top: 1rem;
+        padding: 0.8rem 0rem;
+        border-left: none;
+        border-radius: 2px;
+
+        font-size: 20px;
+    }
+    
+}

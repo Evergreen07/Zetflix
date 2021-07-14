@@ -65,3 +65,48 @@
     border: white solid 1px;
     background-color: #111;
 }
+
+
+/* MEDIA QUERIES */
+
+@media(max-width:450px){
+
+    .navbar{
+      height: 5.5rem;
+    }
+
+    .navbar-img{
+        position: fixed;
+        top: 1.2rem;
+        left: 0.8rem;
+        width: 135px;
+        cursor: pointer;
+        object-fit: contain;
+    }
+
+    .navbar-buttons{
+        position: fixed;
+        top: 0.8rem;
+        right: 1rem;
+        
+        gap: 1rem;
+        padding: 1rem 0.4rem;
+    }
+
+    .navbar-lang,.navbar-sign{
+        padding: 0.4rem ;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        color: white;
+        font-size: 14px;
+        font-weight: 500 ;
+        letter-spacing: 0.5px;
+    }
+
+    .navbar-lang{
+        border: rgb(177, 177, 177) solid 0.5px;
+        background-color: #111;
+    }
+    
+}
