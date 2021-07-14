@@ -10,6 +10,7 @@
 
 # production
 /build
+zetflixstream/
 
 # misc
 .DS_Store
