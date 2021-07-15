@@ -54,7 +54,7 @@ const RowItem = ({title, path, isPortrait}) => {
                     ((isPortrait && item.poster_path) ||
                     (!isPortrait && item.backdrop_path)) && 
                     (   
-                        <div className="card-div">
+                        <div key={item.id} className="card-div">
                             <img 
                                 className={`card-img ${isPortrait ? 'portrait' : 'landscape'}`}
                                 onClick={handleClick}

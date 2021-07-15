@@ -3,3 +3,14 @@
     min-height: 220vh;
     padding-bottom: 3rem;
 }
+
+
+/* MEDIA QUERIES*/
+
+@media(max-width: 450px) {
+
+    .homescreen{
+        padding-bottom: 0.6rem;
+    }
+
+}

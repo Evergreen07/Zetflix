@@ -80,7 +80,7 @@ const Banner = () => {
                             <h3 className="banner-desc">{shorten(movies?.overview, 165, true)}</h3>
                     </div>
                     
-                    <div className="banner-shade"> </div>
+                    <div className="banner-shade"></div>
                 </header>) : 
             (<Spinner/>)}
             

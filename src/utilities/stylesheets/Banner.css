@@ -61,3 +61,44 @@
     font-weight: 600;
     color: rgb(180, 180, 180);
 }
+
+
+/* MEDIA QUERIES*/
+
+@media(max-width: 450px) {
+    
+    .banner{
+        height: 420px;
+    }
+
+    .banner-shade{
+        height: 6rem;
+    }
+
+    .banner-content{
+        margin-left: 40px;
+        width: 60%;
+    }
+    
+    .banner-title{
+        font-size: 25px;
+    }
+
+    .banner-button button{
+        margin: 1rem 1rem 1rem 0;
+        padding: 0.5rem 1rem;
+        
+        font-size: 14px;
+        font-weight: 650;
+    }
+
+    .banner-info{
+        font-size: 14px;
+    }
+
+    .banner-desc{
+        font-size: 14px;
+    }
+    
+
+}

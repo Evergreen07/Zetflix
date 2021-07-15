@@ -53,10 +53,10 @@ const Login = () => {
             <form action="">
                 <h1>{sign}</h1>
                 
-                <input ref={emailRef} type="email" name="email" id="" placeholder="Enter email address"/>
+                <input ref={emailRef} type="email" name="email" id="email" placeholder="Enter email address"/>
                 
 
-                <input ref={passwordRef} type="password" name="password" id="" placeholder="Enter password"/>
+                <input ref={passwordRef} type="password" name="password" id="password" placeholder="Enter password"/>
                 
                 {sign === 'Sign In' ? 
                 (<button className="submit" type="submit" onClick={login}> {sign} </button>) 

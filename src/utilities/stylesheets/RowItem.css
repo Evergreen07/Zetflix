@@ -56,24 +56,36 @@
 }
 
 
-/* .card-div{
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-}
+/* MEDIA QUERIES*/
 
-.card-div::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(
-        180 deg, 
-        transparent,
-        lime);
-    z-index: 2;
-    opacity: 1;
-} */
+@media(max-width: 450px) {
+
+    .row{
+        padding: 0.3rem 0rem;
+    }
+
+    .row-title{
+        font-size: 25px;
+    }
+
+    .card-info{
+        font-size: 14.5px;
+    }
+
+    .landscape{
+        padding: 0rem 0.5rem;
+        cursor: pointer;
+    
+        height: 6rem;
+        width: 10.5rem;
+    }
+    
+    .portrait{
+        padding: 0rem 0.5rem;
+        cursor: pointer;
+    
+        height: 13rem;
+        width: 10rem;
+    }
+
+}

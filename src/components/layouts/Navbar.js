@@ -29,6 +29,9 @@ const Navbar = ({setSignIn}) => {
 
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
+        return () => {
+            setShow({});
+          };
     }, [])
 
     return (

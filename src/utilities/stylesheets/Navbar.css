@@ -80,8 +80,6 @@
         top: 1.2rem;
         left: 0.8rem;
         width: 135px;
-        cursor: pointer;
-        object-fit: contain;
     }
 
     .navbar-buttons{
@@ -109,4 +107,31 @@
         background-color: #111;
     }
     
+}
+
+@media(max-width:390px){
+
+    .navbar{
+        height: 5rem;
+    }
+
+    .navbar-img{
+        position: fixed;
+        top: 1.2rem;
+        left: 0.8rem;
+        width: 120px;
+    }
+
+    .navbar-buttons{
+        position: fixed;
+        top: 0.9rem;
+        right: 0.6rem;
+        
+        gap: 0.7rem;
+        padding: 0.8rem 0.15rem;
+    }
+
+    .navbar-lang,.navbar-sign{
+        font-size: 12px;
+    }
 }
