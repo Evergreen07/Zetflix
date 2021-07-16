@@ -1,6 +1,6 @@
 # Zetflix
 ## Overview : 
-A pixel-perfect, smooth & responsive OTT platform similar to the world's hottest streaming platform Netflix. Users can have set up their account & view various genres of Movies, TV Shows & Documentaries. Comes with a player feature to view trailers of their choice. 
+A pixel-perfect, smooth & responsive OTT platform similar to the world's hottest streaming platform **Netflix**. Users can have set up their account & view various genres of Movies, TV Shows & Documentaries. Comes with a player feature to view trailers of their choice. 
 <br> For a **live preview**, kindly visit http://zetflixstream.herokuapp.com/ 
 
 
